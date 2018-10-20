@@ -1,3 +1,3 @@
-##Travel Blog Template
+## Travel Blog Template
 
-> Html5 + Scss + SmartGrid(D.Lavrik)
+> Html5 + Scss + SmartGrid
