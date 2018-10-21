@@ -2,12 +2,15 @@
 	background: rgba(192, 196, 195, .6);
 	padding-top: 25px;
 	padding-bottom: 25px;
+	z-index: 999;
+	position: relative;
 }
 
 .headerBox {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	flex-wrap: wrap;
 }
 
 .logo {
@@ -65,3 +68,45 @@
 	color: #3c3c3c;
 	}
 }
+
+// SLIDER
+
+.slider {
+	background-size: cover;
+	z-index: 1;
+	position: relative;
+}
+
+.slider-box {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	margin-top: -89px;
+}
+
+.title-slider {
+	color: #f2e9ec;
+	font-size: 90px;
+	font-family: $raleway;
+	font-weight: 600;
+	text-transform: uppercase;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+	span {
+		font-family: $play;
+		font-size: 80px;
+		background: #fff;
+		padding: 10px;
+		border-radius: 10px;
+		color: #3c3c3c;
+		font-weight: bold;
+		display: block;
+		margin-right: 10px;
+	}
+}
+
+// Main content
+
