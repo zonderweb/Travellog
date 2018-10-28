@@ -77,7 +77,7 @@ var settings = {
 	mobileFirst: false, /* mobileFirst ? 'min-width' : 'max-width' */
 	container: {
 			maxWidth: '1200px', /* max-width оn very large screen */
-			fields: '30px' /* side fields */
+			fields: '30px' /* Внутренние отступы */
 	},
 	breakPoints: {
 			lg: {
